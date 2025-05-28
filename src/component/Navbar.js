@@ -31,21 +31,21 @@ export default function Navbar() {
           }
           <ul className='hidden md:flex space-x-4 flex gap-4' data-aos="fade-left"
         data-aos-duration="1000">
-            <li><a href="#" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Home</a></li>
-            <li><a href="#about" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>About</a></li>
-            <li><a href="#skills" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Skills</a></li>
-            <li><a href="#projects" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Projects</a></li>
-            <li><a href="#contacts" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Contact</a></li>
+            <li><a href="/" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Home</a></li>
+            <li><a href="/about" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>About</a></li>
+            <li><a href="/skills" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Skills</a></li>
+            <li><a href="/projects" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Projects</a></li>
+            <li><a href="/contacts" className='text-white font-bold hover:border-b-2 p-1 hover:border-customYellow '>Contact</a></li>
 
           </ul>
         </div>
         {ismenuopen ?
           <ul className=' flex-col md:hidden  flex items-center  mb-10 mt-10 gap-2'>
-            <li><a href="#" className='text-white font-bold '>Home</a></li>
-            <li><a href="#about" className='text-white font-bold'>About</a></li>
-            <li><a href="#skills" className='text-white font-bold'>Skills</a></li>
-            <li><a href="#projects" className='text-white font-bold'>Projects</a></li>
-            <li><a href="#contacts" className='text-white font-bold'>Contact</a></li>
+            <li><a href="/" className='text-white font-bold '>Home</a></li>
+            <li><a href="/about" className='text-white font-bold'>About</a></li>
+            <li><a href="/skills" className='text-white font-bold'>Skills</a></li>
+            <li><a href="/projects" className='text-white font-bold'>Projects</a></li>
+            <li><a href="/contacts" className='text-white font-bold'>Contact</a></li>
 
           </ul> : ''}
       </div>
