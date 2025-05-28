@@ -10,6 +10,7 @@ import Contact from './component/Contact';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Footer from './component/Footer';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
     <Projects/>
     <Contact/>
     </div>
+    <Footer/>
     </>
   );
 }

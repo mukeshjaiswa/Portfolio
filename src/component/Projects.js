@@ -7,14 +7,18 @@ export default function Projects() {
     <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex-col justify-center items-center '>
 
             <h1 className='text-2xl font-bold  mt-20 text-center '>PROJECTS</h1>
-            <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex justify-center items-center '>
+            <div className='w-[300px] mx-auto sm:w-[900px]  flex-wrap flex justify-center items-center '>
                 {projects.map((p) => (
-                    <div key={p.name} className=' border rounded-md w-[250px] sm:w-[400px] text-center p-10 gap-3 shadow-customShadow bg-black border-customYellow m-[20px]'  data-aos="flip-right"
+                    <div key={p.name} className=' border border-transparent  w-[300px] sm:w-[400px] text-center p-10 gap-3
+                     bg-[#2C2C6C] rounded-3xl hover:border-[#4db5ff] hover:bg-transparent m-[20px]'  data-aos="flip-right"
                     data-aos-duration="1000">
 
-                        <img src={p.image} alt="" className=' border-2  rounded-md border-customYellow w-[200px] h-[120px]  mx-auto' />
-                        <h3 className='mt-1  mb-3 whitespace-nowrap'>{p.name}</h3>
-                        <a href={p.github} className='border-2 border-customYellow bg-customYellow text-black rounded-md text-2xl mt-10 px-6 py-1 whitespace-nowrap'>Code on git</a>
+                        <img src={p.image} alt="" className=' border-2  rounded-md border- w-[300px] h-[200px]  mx-auto' />
+                        <h3 className='mt-1  mb-3 whitespace-nowrap '>{p.name}</h3>
+                        <div className=' flex items-start gap-5 mt-5'>
+                        <a href={p.github} className='border border-[#4db5ff] px-[12px] rounded-md text-2xl  py-[16px] hover:bg-white hover:text-black text-[#4db5ff] whitespace-nowrap'>Github</a>
+                        <a href={p.livedemo} className=' bg-[#4db5ff] text-[#1f1f32] px-[12px] rounded-md text-2xl py-[16px] hover:bg-white hover:text-black whitespace-nowrap'>Live Dome</a>
+                        </div>
 
                     </div>
                 ))}
@@ -27,6 +31,22 @@ export default function Projects() {
   )
 }
 const projects=[
+  {
+    name:'React Weather app',
+    image:'/projects/Weatherapp.png',
+    github:'https://github.com/mukeshjaiswa/Weather-',
+    livedemo:'https://mukeshweatherapp.netlify.app/'
+  },
+  {
+    name:'Food Zone',
+    image:'/projects/foodapp.png',
+    github:' https://github.com/mukeshjaiswa/food-zone',
+  },
+  {
+    name:'Currency-Convertor',
+    image:'/projects/currencyconvertor.png',
+    github:'https://github.com/mukeshjaiswa/QRcode-Generator',
+  },
   {
     name:'Qr-code generator',
     image:'/projects/qrcode.png',
@@ -43,16 +63,8 @@ const projects=[
     github:'https://github.com/mukeshjaiswa/rock-paper-scissors',
   },
  
-  {
-    name:'Currency-Convertor',
-    image:'/projects/currencyconvertor.png',
-    github:'https://github.com/mukeshjaiswa/QRcode-Generator',
-  },
-  {
-    name:'Food Zone',
-    image:'/projects/foodapp.png',
-    github:' https://github.com/mukeshjaiswa/food-zone',
-  },
+  
+  
   {
     name:'React Image Gallery app',
     image:'/projects/imagegallery.png',

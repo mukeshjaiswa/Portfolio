@@ -25,13 +25,13 @@ export default function Home() {
         <div className='w-[100%] h-[80vh] mt-20 text-white flex flex-col justify-center items-center' id='/'>
 
             <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex justify-center items-center '>
-                <div className=' border shadow-customShadow w-[80%] sm:w-[40%] sm:gap-4  rounded-md mx-10  bg-bgdark border-~ p-6 flex flex-col items-center ' data-aos="fade-right"
+                <div className=' border w-[80%] sm:w-[40%] sm:gap-4  rounded-md mx-10   p-6 flex flex-col items-center border-[#4db5ff] ' data-aos="fade-right"
                     data-aos-duration="1000">
-                    <h1 className='text-3xl font-bold text-white ' ref={typeRef}>{}</h1>
-                    <a href='/pdf/cv.pdf' download='CV.pdf' className='border   border-black bg-white text-black py-2 px-6 rounded-md hover:bg-black hover:text-white hover:border-b-2 hover:border-customYellow font-bold' >DownLoad CV</a>
+                    <h1 className='text-3xl font-bold text-white ' ref={typeRef}>{ }</h1>
+                    <a href='/pdf/cv.pdf' download='CV.pdf' className='border   border-[#4db5ff]  text-[#4dB5FF] py-2 px-6 rounded-md hover:bg-white hover:text-black   text-[16px]' >DownLoad CV</a>
                 </div>
 
-                <div className='h-[300px] w-[300px] mr-10  rounded-full bg-customYellow shadow-customShadow flex items-center justify-center mt-10 sm:mt-0 sm:ml-20' data-aos="fade-left"
+                <div className='h-[300px] w-[300px] mr-10  rounded-full bg-[#4db5ff]  flex items-center justify-center mt-10 sm:mt-0 sm:ml-20' data-aos="fade-left"
                     data-aos-duration="1000">
                     <img src="mukesh.jpg" className='h-[295px] w-[295px]    rounded-full' alt="" />
                 </div>
