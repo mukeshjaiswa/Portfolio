@@ -15,7 +15,7 @@ export default function Projects() {
 
                         <img src={p.image} alt="" className=' border-2  rounded-md border- w-[300px] h-[200px]  mx-auto' />
                         <h3 className='mt-1  mb-3 whitespace-nowrap '>{p.name}</h3>
-                        <div className=' flex items-start gap-5 mt-5'>
+                        <div className=' flex items-start gap-2 sm:gap-5 mt-5'>
                         <a href={p.github} className='border border-[#4db5ff] px-[12px] rounded-md text-2xl  py-[16px] hover:bg-white hover:text-black text-[#4db5ff] whitespace-nowrap'>Github</a>
                         <a href={p.livedemo} className=' bg-[#4db5ff] text-[#1f1f32] px-[12px] rounded-md text-2xl py-[16px] hover:bg-white hover:text-black whitespace-nowrap'>Live Dome</a>
                         </div>
@@ -32,13 +32,13 @@ export default function Projects() {
 }
 const projects=[
   {
-    name:'React Weather app',
+    name:' Weather app',
     image:'/projects/Weatherapp.png',
     github:'https://github.com/mukeshjaiswa/Weather-',
     livedemo:'https://mukeshweatherapp.netlify.app/'
   },
   {
-    name:'React Real Estate',
+    name:' Real Estate',
     image:'/projects/realestate.png',
     github:'https://github.com/mukeshjaiswa/real-estate',
     livedemo:'https://jaiswalmukeshrealestate.netlify.app/'
@@ -67,7 +67,7 @@ const projects=[
   },
   {
     name:'Result Management System',
-    image:'/projects/tic tac toe.png',
+    image:'/projects/result.png',
     github:'https://github.com/mukeshjaiswa/resultmanagementsystem',
     livedemo:'https://mukeshresultmanagementsystem.netlify.app/'
   },

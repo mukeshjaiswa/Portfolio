@@ -40,7 +40,7 @@ export default function Navbar() {
           </ul>
         </div>
         {ismenuopen ?
-          <ul className=' flex-col md:hidden  flex items-center  mb-10 mt-10 gap-2'>
+          <ul className=' sticky flex-col md:hidden  flex items-center  mb-10 mt-0 gap-2'>
             <li><a href="#home" className='text-white font-bold '>Home</a></li>
             <li><a href="#about" className='text-white font-bold'>About</a></li>
             <li><a href="#skills" className='text-white font-bold'>Skills</a></li>
