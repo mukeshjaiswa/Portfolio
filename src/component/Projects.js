@@ -3,7 +3,7 @@ import React from 'react'
 export default function Projects() {
   return (
   
-        <div className='w-[100%] text-white flex flex-col justify-center items-center' id='projects'>
+        <div className='w-[100%] mt-10 text-white flex flex-col justify-center items-center' id='projects'>
     <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex-col justify-center items-center '>
 
             <h1 className='text-2xl font-bold  mt-20 text-center '>PROJECTS</h1>
@@ -38,6 +38,12 @@ const projects=[
     livedemo:'https://mukeshweatherapp.netlify.app/'
   },
   {
+    name:'React Real Estate',
+    image:'/projects/realestate.png',
+    github:'https://github.com/mukeshjaiswa/real-estate',
+    livedemo:'https://jaiswalmukeshrealestate.netlify.app/'
+  },
+  {
     name:'Food Zone',
     image:'/projects/foodapp.png',
     github:' https://github.com/mukeshjaiswa/food-zone',
@@ -45,12 +51,14 @@ const projects=[
   {
     name:'Currency-Convertor',
     image:'/projects/currencyconvertor.png',
-    github:'https://github.com/mukeshjaiswa/QRcode-Generator',
+    github:'https://github.com/mukeshjaiswa/Currencyconvertor',
+    livedemo:'https://mukeshcurrencyconvertor.netlify.app/'
   },
   {
     name:'Qr-code generator',
     image:'/projects/qrcode.png',
     github:'https://github.com/mukeshjaiswa/QRcode-Generator',
+    livedemo:'https://jasiwalqrcodegenerator.netlify.app/'
   },
   {
     name:'Tic-Tac-Toe',
@@ -58,10 +66,17 @@ const projects=[
     github:'https://github.com/mukeshjaiswa/Tic-Tac-Toe',
   },
   {
+    name:'Result Management System',
+    image:'/projects/tic tac toe.png',
+    github:'https://github.com/mukeshjaiswa/resultmanagementsystem',
+    livedemo:'https://mukeshresultmanagementsystem.netlify.app/'
+  },
+  {
     name:'Rock-Paper-Scissor',
     image:'/projects/rock-paper-scissors.png',
     github:'https://github.com/mukeshjaiswa/rock-paper-scissors',
   },
+
  
   
   
@@ -70,21 +85,13 @@ const projects=[
     image:'/projects/imagegallery.png',
     github:'',
   },
-  {
-    name:'React Weather app',
-    image:'/projects/Weatherapp.png',
-    github:'https://github.com/mukeshjaiswa/Weather-',
-  },
+ 
   {
     name:'React Dice Game',
     image:'/projects/Diceapp.png',
     github:'https://github.com/mukeshjaiswa/dicegame',
   },
-  {
-    name:'React Real Estate',
-    image:'/projects/realestate.png',
-    github:'https://github.com/mukeshjaiswa/real-estate',
-  },
+  
 
 
 ]

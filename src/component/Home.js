@@ -33,7 +33,7 @@ export default function Home() {
 
                 <div className='h-[300px] w-[300px] mr-10  rounded-full bg-[#4db5ff]  flex items-center justify-center mt-10 sm:mt-0 sm:ml-20' data-aos="fade-left"
                     data-aos-duration="1000">
-                    <img src="mukesh.jpg" className='h-[295px] w-[295px]    rounded-full' alt="" />
+                    <img src="/mukesh.jpg" className='h-[295px] w-[295px]    rounded-full' alt="" />
                 </div>
             </div>
         </div>

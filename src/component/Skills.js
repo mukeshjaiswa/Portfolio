@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Skills() {
     return (
-        <div className='w-[100%] text-white flex flex-col justify-center items-center' id='skills'>
+        <div className='w-[100%] text-white flex flex-col justify-center items-center mt-10' id='skills'>
     <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex-col justify-center items-center '>
 
             <h1 className='text-2xl font-bold text-center  '>SKILLS</h1>
             <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex justify-center items-center'>
                 {skills.map((s) => (
-                    <div key={s.title} className=' border rounded-md w-[130px] sm:w-[200px] text-center p-10 shadow-sm border-[#4db5ff]  m-[20px]'  data-aos="flip-left"
+                    <div key={s.title} className=' border border-transparent  bg-[#2C2C6C] rounded- w-[130px] sm:w-[200px] text-center p-10 shadow-sm hover:border-[#4db5ff] hover:bg-transparent cursor-pointer  m-[20px]'  data-aos="flip-left"
                     data-aos-duration="1000">
 
                         <img src={s.image} alt="" className='w-[100px]  mx-auto' />
