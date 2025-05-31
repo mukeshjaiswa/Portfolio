@@ -22,7 +22,7 @@ export default function Home() {
     }, [])
 
     return (
-        <div className='w-[100%] h-[80vh] mt-20 text-white flex flex-col justify-center items-center' id='/'>
+        <div className='w-[100%] h-[80vh] mt-20 text-white flex flex-col justify-center items-center' id='#home'>
 
             <div className='w-[600px] mx-auto sm:w-[900px]  flex-wrap flex justify-center items-center '>
                 <div className=' border w-[80%] sm:w-[40%] sm:gap-4  rounded-md mx-10   p-6 flex flex-col items-center border-[#4db5ff] ' data-aos="fade-right"
