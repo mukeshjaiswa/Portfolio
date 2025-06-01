@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
   return (
-    <div data-aos='' className='w-full bg-[#4db5ff] mt-[20px] text-[20px] gap-1 py-[19px] item-center justify-center flex  text-[1f1f32'>
-        <p>&copy;{new Date().getFullYear()}</p>
-        <p>Jaiswal Mukesh.</p>
-        <p> All Rrights reserved</p>
-        </div>
-  )
+    <footer className="w-screen  bg-[#4db5ff] text-[#1f1f32] text-[20px] py-4 text-center">
+      <p>&copy; {new Date().getFullYear()} Jaiswal Mukesh. All Rights Reserved</p>
+    </footer>
+  );
 }

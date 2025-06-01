@@ -32,7 +32,7 @@ function App() {
     <Projects/>
     <Contact/>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }
