@@ -14,7 +14,7 @@ export default function Projects() {
               data-aos-duration="1000">
 
               <img src={p.image} alt="" className=' border-2  rounded-3xl border- w-[300px] h-[200px]  mx-auto' />
-              <h3 className='mt-1  mb-3 whitespace-nowrap font-semibold text-xl mt-5 '>{p.name}</h3>
+              <h3 className='  mb-3 whitespace-nowrap font-semibold text-xl mt-5 '>{p.name}</h3>
               <div className=' flex items-start gap-2 sm:gap-5 mt-5'>
                 <a href={p.github} className='border border-[#4db5ff] px-[12px] rounded-md text-2xl  py-[16px] hover:bg-white hover:text-black text-[#4db5ff] whitespace-nowrap'>Github</a>
                 <a href={p.livedemo} className=' bg-[#4db5ff] text-[#1f1f32] px-[12px] rounded-md text-2xl py-[16px] hover:bg-white hover:text-black whitespace-nowrap'>Live Dome</a>
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     name: 'Food Zone',
-    image: '/projects/foodapp.png',
+    image: '/projects/Foodapp.png',
     github: ' https://github.com/mukeshjaiswa/food-zone',
     livedemo: ' https://github.com/mukeshjaiswa/food-zone',
   },
